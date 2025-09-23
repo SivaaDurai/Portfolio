@@ -1,0 +1,10 @@
+db.users.insertOne({
+    "firstname": "Siva",
+    "lastName" : "Durai",
+    "email" : "sivasankari0864@gmail.com",
+    "phones" :[
+        {
+            "number":"9500612807",
+        }
+    ]
+    })

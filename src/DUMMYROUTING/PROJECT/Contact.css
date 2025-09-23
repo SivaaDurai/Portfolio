@@ -1,0 +1,62 @@
+
+.contact {
+    padding: 0 5rem;
+}
+.contact-content {
+    display: flex;
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+.contact-form-container {
+    width: 50%;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .form-controls {
+    width: 80%;
+    padding: 10px 0;
+    margin: 1.67rem 0;
+}
+.contact-form .form-btn {
+    width: 83%;
+}
+.contact-details {
+    width: 50%;
+}
+.hover:website
+{
+ color: darkcyan;
+}
+.social-link {
+  text-decoration: none;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0072b1; /* LinkedIn blue */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  gap: 10px;
+}
+
+.social-button:nth-child(2) {
+  background-color: #333; /* GitHub black */
+}
+
+.social-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.social-button i {
+  font-size: 20px;
+}

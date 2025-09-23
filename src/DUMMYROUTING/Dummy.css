@@ -1,0 +1,12 @@
+section{
+    height:100vh;
+    background-color:green;
+    color: ghostwhite;
+   border-bottom: 5px solid black;
+   display: flex;
+   justify-content: center;
+}
+header{
+    position:sticky;
+    top:0 ;
+}

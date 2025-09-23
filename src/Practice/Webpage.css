@@ -1,0 +1,58 @@
+.Webpage
+{
+    /* background-color: blueviolet; */
+    background: rgb(0,36,33);
+    background: linear-gradient(90deg, rgba(0,36,33,1) 0%, rgba(19,130,185,1) 0%, rgba(48,176,201,1) 35%,
+     rgba(109,92,227,1) 81%, rgba(176,0,255,1) 98%);
+}
+input{
+    border:2px solid transparent;
+    border-radius: 5px;
+    height:50px;
+    margin:10px;
+}
+.top
+{
+    display: flex;
+    background-color: black;
+    /* padding: 10px ; */
+    justify-content:start;
+    
+}
+.fav,.pro
+{
+    padding:10px;
+    margin: 10px;
+    color:white;
+}
+.product{
+    box-sizing: border-box;
+    background-color: white;
+    border:2px solid white;
+    border-radius: 5px;
+    padding:10px;
+    margin:10px;
+    height: 600px;
+    width:350px;
+    display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   display:inline-block;
+   flex-wrap:wrap;
+  
+}
+.fav
+{
+    border:2px solid gray;
+    border-radius: 5px;
+    height:50px;
+    width:100px;
+}
+.btn
+{
+    border:2px solid ;
+    border-radius: 5px;
+    color:white;
+    background-color: rgba(27, 131, 235, 0.913);
+  
+}

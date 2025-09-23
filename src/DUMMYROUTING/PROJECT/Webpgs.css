@@ -1,0 +1,51 @@
+/* Container layout */
+.webpgs-container {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  background: #f2f3f5; /* very light gray to lift the cards */
+}
+
+/* Individual project cards */
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 6px solid var(--accent); /* colored top border */
+}
+
+/* Hover effect */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Title styling */
+.project-card h2 {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  color: #1d1145; /* deep purple */
+}
+
+/* CSS variables for palette */
+:root {
+  --accent-deep-purple: #1d1145;
+  --accent-teal: #0db4b9;
+  --accent-pink: #e76d89;
+  --accent-yellow: #fff685;
+}
+
+/* Apply different accent colors to each card */
+.project-card:nth-child(3n+1) { --accent: var(--accent-deep-purple); }
+.project-card:nth-child(3n+2) { --accent: var(--accent-teal); }
+.project-card:nth-child(3n)   { --accent: var(--accent-pink); }
+
+/* Optional text accents */
+.project-card p {
+  color: #555; /* slightly muted text */
+}

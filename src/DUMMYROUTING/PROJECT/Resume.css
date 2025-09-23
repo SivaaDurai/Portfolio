@@ -1,0 +1,101 @@
+/* Resume.css */
+
+.resume {
+  background: linear-gradient(to right, #eef2f3, #ffffff);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.resume-container h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2d3436;
+  position: relative;
+}
+
+.resume-container h1::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #0984e3;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+.resume-container a button {
+  background-color: #00cec9;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 40px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-container a button:hover {
+  background-color: #00b894;
+}
+
+.resume-container section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 5px solid #74b9ff;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.resume-container section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.resume-container p,
+.resume-container li {
+  font-size: 1rem;
+  color: #636e72;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.resume-container ul {
+  padding-left: 20px;
+  list-style: circle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 25px 20px;
+  }
+
+  .resume-container h1 {
+    font-size: 2rem;
+  }
+
+  .resume-container a button {
+    width: 100%;
+  }
+
+  .resume-container section {
+    padding: 15px;
+  }
+
+  .resume-container section h2 {
+    font-size: 1.3rem;
+  }
+}

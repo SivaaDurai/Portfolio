@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Project1 from './DUMMYROUTING/PROJECT/Project1';
+import Webpgs from './DUMMYROUTING/PROJECT/Webpgs';
+import Layout from './DUMMYROUTING/PROJECT/Layout.jsx';
+import Fetch from './Practice/Fetch.jsx'; 
+import Taskk1 from './Practice/Taskk1.jsx';
+import Bmi from './Bmi.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   
+      <Routes>
+        <Route path="/" element={<Navigate to="/portfolio" />} />
+        <Route
+          path="/portfolio"
+          element={
+            <Layout>
+              <Project1 />
+            </Layout>
+          }
+        />
+        <Route
+          path="/portfolio/web-design"
+          element={
+            <Layout>
+              <Webpgs />
+            </Layout>
+          }
+        />
+        <Route path="/portfolio/web-design/sample-webpage" element={<Layout><Fetch /> </Layout>} />
+       <Route path="/portfolio/web-design/todo-list" element={<Layout><Taskk1 /> </Layout>} />
+       <Route path="/portfolio/web-design/bmi" element={<Layout><Bmi /> </Layout>} />
+
+      </Routes>
+      </>
   );
 }
 
 export default App;
+

@@ -1,0 +1,8 @@
+.align
+{
+    background-color: aquamarine;
+    height:250px;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
