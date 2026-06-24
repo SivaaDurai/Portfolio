@@ -66,7 +66,7 @@ body {
 
 .hero 
 {
-    background-image: url('C:/Users/banus/OneDrive/Documents/react/react-learning/src/Images/homepic.jpg');
+    background-image: url('/public/homepic.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
