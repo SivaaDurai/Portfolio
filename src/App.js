@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate} from 'react-router-dom';
 import Project1 from './DUMMYROUTING/PROJECT/Project1';
 import Webpgs from './DUMMYROUTING/PROJECT/Webpgs';
 import Layout from './DUMMYROUTING/PROJECT/Layout.jsx';
