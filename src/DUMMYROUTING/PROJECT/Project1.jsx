@@ -67,7 +67,6 @@ const Project1 = () => {
               <li className="menu-list-items"><a className="links" href="#home">Home</a></li>
               <li className="menu-list-items"><a className="links" href="#portfolio">Portfolio</a></li>
               <li className="menu-list-items"><a className="links" href="#about">About</a></li>
-              <li className="menu-list-items"><a className="links" href="#services">Services</a></li>
               <li className="menu-list-items"><a className="links" href="#contact">Contact Me</a></li>
               <li className="menu-list-items"><a className="links" href="#blog">Blogs</a></li>
               <li className="menu-list-items"><a className="links" href="#resume">Resume</a></li>
@@ -238,14 +237,13 @@ const Project1 = () => {
                   
       </div>
     </section>
-     {/* Add your other sections like Services, etc. here */}
-
+{/*
     <section id="services" className="services">
       <div className='services-heading'>
       <h1 className="my-heading text-center">My Services</h1>
       </div>
       <div className="services-container">
-        {/* <div className="service-box"> */}
+        
             <div className="my-row">
                 <div className="my-col">
                     <div className="my-card">
@@ -279,7 +277,7 @@ const Project1 = () => {
                         </p>
                     </div>
                 </div>
-        {/* <div className="service-box"> */}
+        
         <div className="my-col">
                     <div className="my-card">
                         <div className="icon">
@@ -299,7 +297,7 @@ const Project1 = () => {
                 </div>
 
         </div>
-        {/* <div className="service-box"> */}
+        
          <div className="my-row">
                 <div className="my-col">
                     <div className="my-card">
@@ -355,6 +353,7 @@ const Project1 = () => {
         </div>
       </div>
     </section>
+    */}
 <Contact/>
 </>
   );

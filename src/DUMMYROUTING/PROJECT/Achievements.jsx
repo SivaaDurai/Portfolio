@@ -68,35 +68,3 @@ const Achievements = () => {
 };
 
 export default Achievements;
-{/*
-import React from 'react';
-import './Achievements.css'
-
-const Achievements = () => {
-  const achievements = [
-    { title: '2D Animation', platform: 'Bharathidasan University', year: 2016 },
-    { title: 'Web Design', platform: 'Bharathidasan University', year: 2017 },
-    { title: 'Information Technology', platform: 'Udemy', year: 2023 },
-    { title: 'Certificate in FULL STACK DEVELOPER', platform: 'Greens Technology', year: 2024 },
-  ];
-
-  return (
-    <>
-    <section className="achieve" id="achieve">
-        <div className="achievements-container">
-      <h1>Achievements & Certifications</h1>
-      <ul>
-        {achievements.map((item, index) => (
-          <li key={index}>
-            <strong>{item.title}</strong> - {item.platform} ({item.year})
-          </li>
-        ))}
-      </ul>
-    </div>
-    </section>
-    </>
-  );
-};
-
-export default Achievements;
-*/}
