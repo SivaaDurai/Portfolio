@@ -50,7 +50,7 @@
     .hero {
         justify-content: center;
         color: #fff;
-        background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('C:/Users/banus/OneDrive/Documents/react/react-learning/src/Images/homepic.jpg')
+        background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('../../Images/homepic.jpg')
     }
     .sub-heading {
         color: #fff9f9cc;
