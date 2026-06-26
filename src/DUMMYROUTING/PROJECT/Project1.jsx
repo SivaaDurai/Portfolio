@@ -203,37 +203,30 @@ const Project1 = () => {
         <h1 className="my-heading">About Me</h1>
         <h2>    </h2>
         <p className="para">
-          Hello!
-          I'm a passionate and creative web developer with a strong interest in building responsive 
-          and engaging websites. I enjoy turning complex problems into simple, beautiful, and 
-          intuitive designs and I'm dedicated Computer Science graduate with a strong academic 
-          background and a growing portfolio of practical development projects. I completed my Bachelor
-          of Science in Computer Science with 89% in 2024 from Sri Sarada College for Women,
-          Tirunelveli. Currently, I am pursuing my Master of Computer Applications (MCA) at St. Xavier’s 
-          College, Tirunelveli, where I continue to expand my technical skills and hands-on experience
-          in modern software development.My primary area of interest lies in Full Stack Web Development.
-          I have developed a strong understanding of both frontend and backend technologies, 
-          allowing me to design and build complete web applications. I have hands-on experience 
-          in developing mini projects, including a To-Do List application, a Weather Forecast app, 
-          and several other user-centric interfaces. These projects have helped me enhance my skills 
-          in HTML, CSS, JavaScript, ReactJS, Node.js, and MongoDB.
+          Hi, I'm <b>Siva Sankari</b>, a passionate <b>Full Stack Developer </b>with a strong interest in building 
+          responsive and user-friendly web applications. I completed my <b>B.Sc. Computer Science </b>with 
+         <b> 89% </b>from <b>Sri Sarada College for Women</b>, Tirunelveli and my<b> MCA</b> with <b> 91% (First Rank)</b> from 
+          <b>St. Xavier's College, Tirunelveli.</b>
+          I have hands-on experience in<b> React.js, Java, Spring Boot, SQL, HTML, CSS, and JavaScript, </b>
+          and have built projects including a <b> Full Stack E-commerce Website, Portfolio Website, 
+          and Machine Learning-based Crop Yield Prediction System.</b>
         </p>
         <p className="para">
-          With a foundation in front-end development and a curiosity for full-stack technologies, 
-          I am constantly exploring new ways to grow and push my limits. When I'm not coding, 
-          I enjoy learning new skills, reading, and exploring creative outlets.In addition to my technical knowledge,
-         </p> 
+         <b>🏆 Achievements </b>
+         <ul>
+                <li>🥇 First Rank Holder          – MCA (91%) </li>
+                <li>🌟 Outstanding Student Award  – B.Sc. </li>
+                <li>🎖️ Subject Proficiency Award </li>
+                </ul>
+                </p> 
           <p className="para">
-          I am a self-driven learner who believes in continuous growth.I stay updated with the
-          latest web development trends and enjoy building real-world projects to apply what I learn. 
-          I am also a team player who values collaboration, communication, and problem-solving.
+            <b>📜 Certifications </b>
+                  <ul>
+                 <li> Full Stack Development </li>
+                 <li> Information Technology </li>
+                  </ul>
         </p>
-        <p className='para'>
-          I am a motivated and adaptable individual with strong communication and interpersonal skills, capable of collaborating 
-          effectively in team environments.</p>
-        <p className='para'>
-          My organizational abilities and attention to detail ensure tasks are completed 
-          efficiently and accurately.</p>
+        
                   
       </div>
     </section>
