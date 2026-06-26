@@ -7,7 +7,7 @@ const Resume = () => {
     <section className="resume" id="resume">
     <div className="resume-container">
       <h1>My Resume</h1>
-      <a href="/Siva_Sankari_resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/Siva_Sankari.pdf" target="_blank" rel="noopener noreferrer">
         <button>Download Resume (PDF)</button>
       </a>
 
@@ -36,7 +36,7 @@ const Resume = () => {
 
       <section>
         <h2>Experience</h2>
-        <p>Worked on building user interfaces with React.</p>
+        <p>I am a fresher. I have built two React.js projects: a Personal Portfolio Website and an E-commerce Website. Through these projects, I gained hands-on experience in React.js, JavaScript, HTML, CSS, component-based development, routing, state management, responsive design, API integration, and GitHub deployment.</p>
       </section>
     </div>
     </section>

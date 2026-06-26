@@ -76,12 +76,12 @@ const Portfolio= () => {
           <div className="my-row">
             {/* Portfolio Items */}
             {[
-              { img: 'Portfolio1.jpg', title: 'Web Design', desc: 'Designing' },
-              { img: 'Portfolio2.jpg', title: 'Web Development', desc: 'Development' },
-              { img: 'Portfolio3.jpg', title: 'SEO', desc: 'Optimization' },
-              { img: 'Portfolio4.jpg', title: 'Content Writing', desc: 'Writing' },
-              { img: 'Portfolio5.jpg', title: 'Wordpress Dev', desc: 'Content Management System' },
-              { img: 'Portfolio6.jpg', title: 'Video Editing', desc: 'Editing' },
+              { img: 'Portfolio1.jpg', title: 'Web Design', desc: '' },
+              { img: 'java.jpg', title: 'Programming', desc: '' },
+              { img: 'react.jpg', title: 'Frontend', desc: '' },
+              { img: 'sdlc.jpg', title: 'Process', desc: '' },
+              { img: 'sql.jpg', title: 'Database', desc: '' },
+              { img: 'github.jpg', title: 'Repository', desc: '' },
             ].map((item, index) => (
               <div className="my-col" key={index}>
                 <div className="my-card port-card">

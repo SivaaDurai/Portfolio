@@ -5,6 +5,18 @@ import './Achievements.css';
 const Achievements = () => {
   const achievements = [
     {
+      title: 'First Rank at MCA',
+      platform: 'St.Xaviers College',
+      year: 2026,
+      image: '/certificates/2d-animation.jpg',
+    },
+    {
+      title: 'Outstanding Student Award',
+      platform: 'Sri Sarada College for Women',
+      year: 2024,
+      image: '/certificates/2d-animation.jpg',
+    },
+    {
       title: '2D Animation',
       platform: 'Bharathidasan University',
       year: 2016,

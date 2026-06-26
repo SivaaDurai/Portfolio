@@ -98,7 +98,7 @@ const Project1 = () => {
 
             <button className="btn ghost-btn">
               <a
-                href="\Siva_Sankari_resume.pdf"
+                href="\Siva_Sankari.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: 'none', color: 'inherit' }}
@@ -197,7 +197,7 @@ const Project1 = () => {
    
    * <section id="about" className="about">
       <div className="about-image">
-        <img src="about.jpg" alt="About" />
+        <img src="about.jpeg" alt="About" />
       </div>
       <div className="about-content">
         <h1 className="my-heading">About Me</h1>

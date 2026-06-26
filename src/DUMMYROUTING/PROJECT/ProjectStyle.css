@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 /* Header Navbar Styles */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -18,6 +19,8 @@ body {
     background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
     background-color: transparent;
 }
+
+    
 .logo {
     padding: 0 5rem;
 }
@@ -100,7 +103,7 @@ body {
     padding: 5rem 1rem 5rem 5rem;
 }
 .about .about-image img {
-    height: 400px;
+    height: 600px;
     width: 450px;
     padding: 5rem 5rem 5rem 1rem;
 }

@@ -20,26 +20,26 @@ const Portsec = () => {
                     <img src="Portfolio1.jpg" alt="Portfolio 1" />
                   </div>
                   <h3 className="greet-heading blue-text">Web Design</h3>
-                  <p className="small-para">Designing</p>
+                  <p className="small-para">Click</p>
                 </div>
                 </Link>
               </div>
               <div className="my-col">
                 <div className="my-card port-card">
                   <div className="image">
-                    <img src="Portfolio2.jpg" alt="Portfolio 2" />
+                    <img src="java.jpg" alt="Java" />
                   </div>
-                  <h3 className="greet-heading blue-text">Web Development</h3>
-                  <p className="small-para">Development</p>
+                  <h3 className="greet-heading blue-text">Java</h3>
+                  <p className="small-para">Programming</p>
                 </div>
               </div>
               <div className="my-col">
                 <div className="my-card port-card">
                   <div className="image">
-                    <img src="Portfolio3.jpg" alt="Portfolio 3" />
+                    <img src="react.jpg" alt="React" />
                   </div>
-                  <h3 className="greet-heading blue-text">SEO</h3>
-                  <p className="small-para">Optimization</p>
+                  <h3 className="greet-heading blue-text">React</h3>
+                  <p className="small-para"></p>
                 </div>
               </div>
             </div>
@@ -47,36 +47,36 @@ const Portsec = () => {
                     <div className="my-col">
                         <div className="my-card port-card">
                             <div className="image">
-                                <img src="Portfolio4.jpg" alt="Image4" />
+                                <img src="sdlc.jpg" alt="sdlc" />
                             </div>
                             <h3 className="greet-heading blue-text">
-                                Content Writing
+                                SDLC
                             </h3>
-                            <p className="small-para blue-text">Writing</p>
+                            <p className="small-para blue-text"></p>
                         </div>
                     </div>
                     <div class="my-col">
                         <div class="my-card port-card">
                             <div class="image">
-                                <img src="Portfolio5.jpg" alt="Image5" />
+                                <img src="sql.png" alt="Sql" />
                             </div>
                             <h3 class="greet-heading blue-text">
-                                Wordpress Dev
+                                SQL
                             </h3>
                             <p class="small-para blue-text">
-                                Content Management System
+                                
                             </p>
                         </div>
                     </div>
                     <div class="my-col">
                         <div class="my-card port-card">
                             <div class="image">
-                                <img src="Portfolio6.jpg" alt="Image6" />
+                                <img src="github.jpg" alt="Github" />
                             </div>
                             <h3 class="greet-heading blue-text">
-                                Video Editing
+                                Github
                             </h3>
-                            <p class="small-para blue-text">Editing</p>
+                            <p class="small-para blue-text"></p>
                         </div>
                     </div>
                     </div>
